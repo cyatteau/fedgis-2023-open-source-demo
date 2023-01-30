@@ -1,0 +1,98 @@
+#map-container {
+  height: 94vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  background-image: linear-gradient(0deg, rgb(96, 191, 232) 10%, rgb(209, 203, 241) 100%);
+  margin: 0;
+  padding: 10px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  border-top: solid black 1.5px;
+  border-bottom: solid black 1.5px;
+}
+
+#search {
+  width: 240px;
+  padding: 3px 5px;
+}
+
+.search-form {
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  z-index: 999;
+  right: 1%;
+}
+
+.btn {
+  padding: 3px 7px;
+  margin-top: -4px;
+}
+
+#result-list {
+  position: absolute;
+  z-index: 999;
+  max-width: 650px;
+  height: 160px;
+  top: 74%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: normal;
+  background-color: white;
+  word-break: keep-all;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  font-family: "Figtree", sans-serif;
+}
+
+.card-text {
+  font-size: 13px;
+  word-break: keep-all;
+}
+
+.class-title {
+  font-size: 15px;
+  word-break: keep-all;
+  font-weight: 700;
+}
+
+.list-items:hover {
+  background-color: rgb(211, 208, 208);
+}
+
+@media screen and (max-width: 800px) {
+  .search-form {
+    position: absolute;
+    top: 80px;
+    z-index: 999;
+    text-align: center;
+    left: 58%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .search-form {
+    position: absolute;
+    top: 80px;
+    z-index: 999;
+    text-align: center;
+    left: 15%;
+  }
+}
+
+.leaflet-touch .geocoder-control-input {
+  height: 45px !important;
+  font-size: 17px !important;
+}
