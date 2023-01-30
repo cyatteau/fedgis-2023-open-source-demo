@@ -28,7 +28,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // import { apiKey } from "./config";
 // import { vectorBasemapLayer } from "esri-leaflet-vector";
-// vectorBasemapLayer("d759b86ae54c436ca22644a9cf188382", {
+// vectorBasemapLayer("OSM:Standard", {
 //   apiKey: apiKey,
 // }).addTo(map);
 
